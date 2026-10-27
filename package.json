@@ -1,0 +1,35 @@
+{
+  "name": "mongodb-indexes",
+  "version": "1.0.0",
+  "description": "MongoDB Indexes Comprehensive Lab & Performance Analysis: Simple, Compound, Multikey, Text, Hashed, Geospatial, Unique/Sparse, Partial, and Wildcard Indexes",
+  "main": "scripts/11_benchmark_runner.js",
+  "scripts": {
+    "seed": "mongosh ecomDB scripts/01_seed_data.js",
+    "test:simple": "mongosh ecomDB scripts/02_simple_index.js",
+    "test:compound": "mongosh ecomDB scripts/03_compound_index.js",
+    "test:multikey": "mongosh ecomDB scripts/04_multikey_index.js",
+    "test:text": "mongosh ecomDB scripts/05_text_index.js",
+    "test:hashed": "mongosh ecomDB scripts/06_hashed_index.js",
+    "test:geospatial": "mongosh ecomDB scripts/07_geospatial_index.js",
+    "test:unique-sparse": "mongosh ecomDB scripts/08_unique_sparse_index.js",
+    "test:partial": "mongosh ecomDB scripts/09_partial_index.js",
+    "test:wildcard": "mongosh ecomDB scripts/10_wildcard_index.js",
+    "benchmark": "mongosh ecomDB scripts/11_benchmark_runner.js"
+  },
+  "keywords": [
+    "mongodb",
+    "indexing",
+    "performance-optimization",
+    "compound-index",
+    "multikey-index",
+    "geospatial-index",
+    "text-index",
+    "hashed-index",
+    "partial-index",
+    "wildcard-index",
+    "explain-plan",
+    "collscan-vs-ixscan"
+  ],
+  "author": "Sunny Kumar Dev",
+  "license": "MIT"
+}
